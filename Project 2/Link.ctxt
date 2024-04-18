@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Link
+comment1.params=it\ inp\ inn
+comment1.target=Link(java.lang.Object,\ Link,\ Link)
+comment2.params=inp\ inn
+comment2.target=Link(Link,\ Link)
+comment3.params=
+comment3.target=java.lang.Object\ element()
+comment4.params=it
+comment4.target=java.lang.Object\ setElement(java.lang.Object)
+comment5.params=
+comment5.target=Link\ next()
+comment6.params=nextval
+comment6.target=Link\ setNext(Link)
+comment7.params=
+comment7.target=Link\ prev()
+comment8.params=prevval
+comment8.target=Link\ setPrev(Link)
+numComments=9

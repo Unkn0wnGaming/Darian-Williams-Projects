@@ -1,0 +1,56 @@
+#BlueJ class context
+comment0.target=BasicDLList
+comment0.text=\r\n\ Doubly\ Linked\ List,\ modified\ to\ not\ use\ header\ nor\ trailer\ nodes\r\n\ @author\ OpenDSA\ Data\ Structures\ and\ Algorithms\ Modules\ Collection,\ CHAPTER\ 9\ LINEAR\ STRUCTURES\:\ https\://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/ListDouble.html.\ Modified\ by\ Darian\ Williams.\r\n\ \r\n\ @version\ 1\ (Project\ 2\ Ed.)\r\n\ @since\ 2/9/24\r\n
+comment1.params=size
+comment1.target=BasicDLList(int)
+comment10.params=
+comment10.target=void\ next()
+comment10.text=\r\n\ Moves\ curr\ to\ the\ next\ element.\ If\ curr\ is\ already\ null,\ do\ nothing.\ Otherwise,\r\n\ move\ to\ the\ next\ position.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ Break\ if\ curr\ \=\=\ null.\r\n
+comment11.params=
+comment11.target=int\ length()
+comment11.text=\r\n\ Returns\ the\ length\ of\ the\ list.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ Number\ of\ elements\ in\ the\ list.\r\n
+comment12.params=
+comment12.target=int\ currPos()
+comment12.text=\r\n\ Returns\ the\ value\ of\ where\ curr\ is.\ It\ can\ handle\ if\ curr\ is\ at\ the\ end\ of\ the\ list,\r\n\ in\ the\ middle\ of\ the\ list,\ or\ whether\ curr\ is\ before\ or\ after\ the\ single\r\n\ element\ in\ a\ list.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ Position\ where\ curr\ is.\r\n
+comment13.params=pos
+comment13.target=boolean\ moveToPos(int)
+comment13.text=\r\n\ Moves\ curr\ to\ the\ given\ position.\ The\ given\ position\ must\ be\ more\ than\ zero\r\n\ and\ less\ than\ the\ size\ of\ the\ list.\r\n\ \r\n\ @param\ Postion\ curr\ should\ be\ moved\ to.\r\n\ @return\ true\ if\ curr\ was\ successfully\ move,\ false\ if\ pos\ is\ not\ in\ range\ \r\n\ of\ the\ list.\r\n
+comment14.params=
+comment14.target=boolean\ isAtEnd()
+comment14.text=\r\n\ Check\ to\ see\ if\ curr\ is\ at\ the\ end\ of\ the\ list.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ true\ if\ curr\ is\ at\ the\ end,\ otherwise\ false.\r\n
+comment15.params=
+comment15.target=java.lang.Object\ getValue()
+comment15.text=\r\n\ Gets\ the\ value\ stored\ in\ the\ curr\ position.\ If\ curr\ \=\=\ null,\ a\ NoSuchElementException\r\n\ will\ be\ thrown.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ The\ element\ in\ the\ curr\ position.\r\n
+comment16.params=
+comment16.target=boolean\ isEmpty()
+comment16.text=\r\n\ Determine\ if\ the\ list\ is\ empty.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ true\ if\ the\ list\ is\ empty,\ false\ if\ the\ list\ is\ populated.\r\n
+comment17.params=
+comment17.target=java.lang.String\ display()
+comment17.text=\r\n\ Display\ the\ element\ curr\ is\ pointed\ at.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ The\ element\ curr\ is\ pointed\ at\ so\ that\ it\ can\ be\ printed.\r\n
+comment18.params=
+comment18.target=java.lang.String\ toString()
+comment18.text=\r\n\ Required\ toString()\ method\ that\ uses\ a\ StringBuilder\ to\ display\ the\ whole\ list\r\n\ in\ proper\ order.\ A\ comma\ will\ be\ placed\ after\ each\ element\ except\ the\ last\ one.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ A\ printable\ version\ of\ the\ list.\r\n
+comment2.params=
+comment2.target=BasicDLList()
+comment3.params=
+comment3.target=void\ clear()
+comment3.text=\r\n\ Clears\ the\ list\ by\ setting\ each\ value\ to\ null.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ N/A\r\n
+comment4.params=it
+comment4.target=boolean\ insert(java.lang.Object)
+comment4.text=\r\n\ Inserts\ the\ string\ given\ by\ the\ user.\ Can\ function\ for\ an\ empty\ list,\r\n\ curr\ being\ at\ the\ start,\ curr\ being\ at\ the\ end,\ or\ curr\ being\ in\ the\ middle.\r\n\ \r\n\ @param\ The\ string\ to\ insert,\ parsed\ as\ a\ Link\ element.\r\n\ @return\ Confirmation\ that\ the\ insertion\ was\ successful.\r\n
+comment5.params=it
+comment5.target=boolean\ append(java.lang.Object)
+comment5.text=\r\n\ Appends\ the\ give\ string\ to\ the\ end\ of\ the\ list.\ It\ can\ function\ if\ the\ \r\n\ list\ is\ empty\ or\ populated.\ curr\ should\ not\ be\ moved.\r\n\ \r\n\ @param\ The\ string\ to\ append,\ parsed\ as\ a\ Link\ element.\r\n\ @return\ Confirmation\ that\ appending\ was\ successful.\r\n
+comment6.params=
+comment6.target=java.lang.Object\ remove()
+comment6.text=\r\n\ Removes\ the\ current\ element,\ and\ stores\ its\ value\ for\ the\ return\ statement.\r\n\ It\ function\ for\ a\ list\ having\ only\ 1\ element,\ curr\ being\ at\ the\ start,\r\n\ curr\ being\ at\ the\ end,\ and\ curr\ being\ in\ the\ middle\ of\ the\ list.\r\n\ If\ there\ is\ nothing\ to\ remove,\ it\ will\ yield\ a\ NoSuchElementException.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ The\ value\ that\ was\ removed\r\n
+comment7.params=
+comment7.target=void\ moveToStart()
+comment7.text=\r\n\ Moves\ curr\ to\ the\ start.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ N/A\r\n
+comment8.params=
+comment8.target=void\ moveToEnd()
+comment8.text=\r\n\ Moves\ curr\ to\ the\ end.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ N/A\r\n
+comment9.params=
+comment9.target=void\ prev()
+comment9.text=\r\n\ Moves\ curr\ to\ the\ previous\ element.\ If\ curr\ \=\=\ head,\ move\ curr\ to\ before\ head\ (pos\ 0).\r\n\ If\ curr\ \=\=\ null,\ move\ curr\ to\ tail.\r\n\ \r\n\ @param\ N/A\r\n\ @return\ N/A\r\n
+numComments=19

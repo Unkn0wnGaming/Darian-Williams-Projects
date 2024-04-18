@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MenuDriver
+comment0.text=\r\n\ Extend\ your\ MenuDriver\ class\ from\ Project\ 1\ by\ adding\ in\ code\ to\ create\ a\ \r\n\ BasicDLList\ object\ and\ calls\ its\ methods.\ \r\n\ Additionally,\ add\ in\ an\ option\ for\ "V",\ that\ calls\ the\ BasicDLList.toString\ method\ \r\n\ to\ list\ all\ of\ the\ strings\ in\ a\ comma-seperated\ list.\r\n\ Required\ to\ use\ the\ List\ interface\ from\ the\ textbook\ and\ \r\n\ the\ Link\ class\ for\ doubly-linked\ nodes,\ without\ a\ header\ nor\ trailer\ node.\r\n\ \r\n\ @author\ Darian\ Williams\r\n\ @version\ 2\ (Project\ 2\ Ed.)\r\n\ @since\ 2/9/24\r\n\ Approx.\ Hours\ Spent\:\ 25\r\n
+comment1.params=args\ list
+comment1.target=java.lang.String\ CommandReceived(java.lang.String,\ BasicDLList)
+comment1.text=\r\n\ CommandReceived\ method\ manages\ less\ complex\ commands,\ such\ as\ curr\ \r\n\ movement.\r\n\ \r\n\ @param\ String\ args\ \=\ the\ given\ command,\ \r\n\ BasicDLList\ list\ \=\ the\ list\ to\ act\ upon\r\n\ \r\n\ @return\ Confirmation\ that\ the\ command\ has\ been\ performed\r\n
+comment2.params=I
+comment2.target=java.lang.String\ CommandReceivedI(java.lang.String)
+comment2.text=\r\n\ CommandReceivedI\ method\ that\ inserts\ text\ \r\n\ provided\ if\ the\ "I"\ option\ is\ used\r\n\ \r\n\ @param\ The\ text\ the\ user\ wants\ to\ insert\r\n\ @return\ Confirmation\ that\ the\ text\ has\ been\ inserted\r\n
+comment3.params=M\ list
+comment3.target=java.lang.String\ CommandReceivedM(java.lang.String,\ BasicDLList)
+comment3.text=\r\n\ CommandReceivedM\ method\ that\ moves\ to\ the\ given\ \r\n\ position\ if\ the\ "M"\ option\ is\ used\ and\ the\ given\ int\r\n\ is\ in\ range\ of\ the\ list\ size\r\n\ \r\n\ @param\ The\ position\ of\ the\ space\ to\ move\ to\r\n\ @return\ A\ confirmation\ message\ if\ movement\ was\ successful,\ or\ a\r\n\ deny\ message\ if\ the\ given\ int\ was\ out\ of\ bounds\r\n
+comment4.params=
+comment4.target=void\ CommandReceivedO()
+comment4.text=\r\n\ CommandReceivedO\ displays\ the\ options\ again\ if\ the\ "O"\ option\ is\ used\r\n\ \r\n\ @param\ N/A\r\n\ @return\ N/A\r\n
+comment5.params=A
+comment5.target=java.lang.String\ CommandReceivedA(java.lang.String)
+comment5.text=\r\n\ CommandReceivedA\ method\ that\ appends\ text\ provided\ if\ the\ \r\n\ "A"\ option\ is\ used.\ This\ means\ the\ text\ will\ be\ put\ at\ the\ end\ of\ the\ list.\r\n\ \r\n\ @param\ The\ string\ that\ will\ be\ appended\ to\ the\ list\r\n\ @return\ Confirmation\ of\ the\ text\ being\ appended\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ The\ main\ method\ which\ recieves\ one\ char,\ \r\n\ and\ performs\ an\ action\ based\ on\ the\ char\ give.\r\n\ Some\ commands\ require\ extra\ input\ such\ as\ strings\ or\ integerss.\r\n\ If\ a\ char\ that\ corresponds\ to\ a\ command\ that\ requires\ a\ string\ or\ int\ is\ used,\r\n\ but\ no\ string\ nor\ int\ is\ given,\ the\ command\ is\ counted\ as\ invalid.\r\n\ The\ options\ menu\ shows\ all\ valid\ commands\ and\ parameters\ if\ required.\r\n\r\n\ @param\ Required\ for\ the\ program\r\n\ @return\ N/A\r\n
+numComments=7
