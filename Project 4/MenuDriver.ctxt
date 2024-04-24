@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MenuDriver
+comment0.text=\r\n\ User\ interface\ for\ a\ program\ that\ tracks\ stock\ ticker\ names\ and\ values\ by\ use\ of\ a\ hash\ table\ and\ hash\ function.\r\n\r\n\ @author\ Darian\ Williams\r\n\ @version\ 1\ (Project\ 4)\r\n\ \r\n\ Est.\ Hours\:\ 30\r\n
+comment1.params=
+comment1.target=void\ displayMenu()
+comment1.text=\r\n\ Display\ the\ menu\ on\ startup\ and\ when\ ever\ the\ 'O'\ command\ is\ used\r\n
+comment2.params=fullComm
+comment2.target=java.lang.String\ removeCommandChar(java.lang.String)
+comment2.text=\r\n\ Remove\ the\ command\ char\ and\ space\ from\ user\ input\ to\ create\ a\ string\ to\ work\ with\r\n\ \r\n\ @param\ fullComm\ -\ The\ full\ command\ line\ the\ user\ entered,\ including\ the\ command\ char,\ the\ ticker\ symbol,\ and\ following\ value\ if\ applicable\r\n
+comment3.params=tickAndVal
+comment3.target=java.lang.String\ stockName(java.lang.String)
+comment3.text=\r\n\ Extract\ the\ stock\ ticker\ name,\ and\ remove\ the\ value\ attached\ to\ it\r\n\ \r\n\ @param\ tickAndVal\ -\ The\ string\ that\ holds\ both\ the\ ticker\ name\ and\ value,\ in\ which\ the\ value\ will\ be\ removed\r\n
+comment4.params=tickAndVal
+comment4.target=java.lang.String\ stockValue(java.lang.String)
+comment4.text=\r\n\ Extract\ the\ stock\ ticker\ value,\ and\ remove\ the\ name\ attached\ to\ it\r\n\ \r\n\ @param\ tickAndVal\ -\ The\ string\ that\ holds\ both\ the\ ticker\ name\ and\ value,\ in\ which\ the\ name\ will\ be\ removed\r\n
+comment5.params=tickAndVal
+comment5.target=java.lang.String\ pairTickAndVal(java.lang.String)
+comment5.text=\r\n\ Replace\ the\ space\ that\ seperates\ the\ ticker\ name\ and\ value\ with\ a\ '+'\ so\ that\ the\ string\ can\ be\ handled\ in\ future\ operations\r\n\ \r\n\ @param\ tickAndVal\ -\ The\ ticker\ name\ and\ value\ pair\r\n\ @return\ String\ -\ A\ string\ version\ of\ the\ modified\ ticker\ name\ and\ value\ pair\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Main\ method\ that\ serves\ as\ the\ menu\ driver\ for\ the\ stock\ price/hash\ table\ project.\r\n\ \r\n\ @param\ String[]\ args\ -\ requried\ for\ every\ main\ method\r\n
+numComments=7
